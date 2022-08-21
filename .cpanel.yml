@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/jueiziuu/public_html/laravel_delher
+    - /bin/cp -R . $DEPLOYPATH
